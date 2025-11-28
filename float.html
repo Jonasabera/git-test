@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Float the image to the right */
+    img.right {
+      float: right;
+      width: 200px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    /* Float the image to the left */
+    img.left {
+      float: left;
+      width: 200px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    /* Clear floats after the content */
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Float Example</h2>
+
+  <img src="https://via.placeholder.com/200" class="right" alt="Right Image">
+  <p>
+    This paragraph contains an image floated to the right. Notice how the text flows and wraps
+    around the image neatly. The float property is very useful for aligning images, sidebars, or boxes
+    alongside text without breaking the layout.
+  </p>
+
+  <div class="clear"></div> <!-- Clears the float so next section starts below -->
+
+  <img src="https://via.placeholder.com/200" class="left" alt="Left Image">
+  <p>
+    This is another example with the image floated to the left. Again, the text automatically adjusts
+    and wraps around it. You can use float for building layouts, image alignment, or simple side-by-side content.
+  </p>
+
+</body>
+</html>
